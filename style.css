@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+html {
+    font-family: 'Mukta', sans-serif;
+}
+h1 {
+     text-align: center;
+ }
+
+ .choice{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+
+ .recipe {
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+ }
+
+.index-img {
+    width:350px;
+    height:500px;
+}
+
+.index-img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 5px rgb(0, 12, 1);
+} 
+
+.index-recipe-title {
+    font-size: 20px;
+    font-weight: 100px;
+
+}
+
+h1 {
+    font-size: 50px;
+}
